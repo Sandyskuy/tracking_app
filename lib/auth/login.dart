@@ -23,7 +23,7 @@ class _LoginPageState extends State<LoginPage> {
       isLoading = true;
     });
 
-    String apiUrl = "http://192.168.1.6:8000/api/auth/login";
+    String apiUrl = "http://192.168.1.19:8000/api/auth/login";
 
     try {
       final response = await _dio.post(

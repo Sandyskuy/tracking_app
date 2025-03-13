@@ -29,7 +29,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
     try {
       final response = await _dio.post(
-        'http://192.168.1.6:8000/api/auth/register',
+        'http://192.168.1.27:8000/api/auth/register',
         data: {
           "name": nameController.text,
           "email": emailController.text,
